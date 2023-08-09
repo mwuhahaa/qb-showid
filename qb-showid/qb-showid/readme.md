@@ -3,20 +3,16 @@
 Show server Ids to player
 
 # Installation
-Add to resource folder `[esx]` or `[disc]`
+Add to resource folder (qb-scripts) or wherever you like.
 
-Start using `start disc-showid`
+Add to server.cfg (if needed) - ensure qb-showid
 
 # Usage
 
-Toggle with `/id`
+Toggle with - /toggleids
 
 # Config
 Distance to search for players and draw their ids
-```
+
 Config.DrawDistance
-```
-
-# Requirements
-
-- [Disc-Base](https://github.com/DiscworldZA/gta-resources/tree/master/disc-base)
+Config.Config.Key (default F9)
